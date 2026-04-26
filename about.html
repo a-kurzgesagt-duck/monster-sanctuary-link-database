@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- RESTORED HEAD ITEMS -->
+    <meta name="color-scheme" content="light dark">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="manticorb-eye-large.png"> 
     <title>About</title>
+    
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 20px;
         }
-
         .header-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr; 
@@ -27,19 +32,24 @@
             justify-self: center;
         }
 
-   
-        h1 {
-            margin: 0;
+        
+        h1, p {
             text-align: center;
         }
 
-        p {
-            text-align: center;
+        h2 {
+            border-bottom: 2px solid #2e8b57;
+            font-size: 24px;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #54b17d;
         }
 
         .button-link {
             text-decoration: none;
             display: inline-block;
+            text-align: center;
             background-color: #2e8b57; 
             color: white;
             padding: 12px 24px;
@@ -47,14 +57,13 @@
             border-radius: 8px;
             transition: background 0.3s ease;
         }
-
+   
         .button-link:hover {
             background-color: #54b17d; 
         }
 
-        .button-container {
+        .content-section {
             text-align: center;
-            margin-top: 20px;
         }
     </style>
 </head>
@@ -69,20 +78,19 @@
         <h1>About</h1>
     </div>
 
+   
     <div class="header-right"></div>
 </header>
 
-<main>
+<div class="content-section">
     <p>I really like to make these kind of resources even if it's just for myself, but if you find this useful then good for you!</p>
     <p>Here are some helpful links if you would like to contact me or something else.</p>
     
-    <div class="button-container">
-        <a href="https://github.com/a-kurzgesagt-duck/monster-sanctuary-link-database.git" target="_blank" class="button-link">Github Repository</a>
-        <a href="https://github.com/a-kurzgesagt-duck" target="_blank" class="button-link">Github Profile</a>
-        <a href="#" target="_blank" class="button-link">Email (Coming Soon)</a>
-        <a href="https://discord.com/users/1272356914793283676" target="_blank" class="button-link">Discord Profile</a>
-    </div>
-</main>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="button-link">Github Repository</a>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="button-link">Github Profile</a>
+    <a href="" target="_blank" rel="noopener noreferrer" class="button-link">email(coming soon)</a>
+    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="button-link">Discord Profile</a>
+</div>
 
 </body>
 </html>
