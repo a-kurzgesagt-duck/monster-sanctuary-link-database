@@ -10,6 +10,17 @@
     <link rel=icon type="image/png" href="manticorb-eye-large.png"> 
     <title>Monster Sanctuary Link Database</title>
   <style>
+    .three-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px
+    }
+
+    .left {
+    text-align: left;
+    }
+      
     .center {
     text-align: center;
     }
@@ -77,13 +88,15 @@
 
 
 <body>
-    <h1>Monster Sanctuary Link Database</h1>
-    <p>A collection of links for all your Monster Sanctuary needs.</p>
-    <div class="center">
+    <div class="three-column-grid">
     <a href="/about.html"
-    class="button-link button-special">
+    class="button-special left">
     About</a>
-    <p></p>
+    <h1>Monster Sanctuary Link Database</h1>
+    </div>
+    <p>A collection of links for all your Monster Sanctuary needs.</p>
+    
+    <div class="center">
     <a href="https://monster-sanctuary.fandom.com" 
    target="_blank" 
    rel="noopener noreferrer" 
